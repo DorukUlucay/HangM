@@ -27,7 +27,7 @@ HangM.play = function() {
     }
 
     var given = [];
-    var lives = 5;
+    var lives = 8;
     var word = this.dictionary[Math.floor(Math.random() * this.dictionary.length)];
     var statu = getStatu(word, given);
 
